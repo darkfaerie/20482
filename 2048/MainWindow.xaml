@@ -1,0 +1,17 @@
+﻿<Window x:Class="_2048.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2048"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="571">
+    <Grid>
+        <Button x:Name="start" Content="Старт Игры 2048&#xD;&#xA;" HorizontalAlignment="Left" Height="36" Margin="373,341,0,0" VerticalAlignment="Top" Width="161" FontSize="18" FontFamily="Comic Sans MS" Background="White" Foreground="#FF780D0D" BorderBrush="#FFE23A3A" Click="start_Click"/>
+        <local:UserControl1 x:Name="anyo" HorizontalAlignment="Left" Height="283" Margin="10,10,0,0" VerticalAlignment="Top" Width="327"/>
+        <Button x:Name="regi" Content="Регистрация&#xA;" HorizontalAlignment="Left" Height="36" Margin="373,10,0,0" VerticalAlignment="Top" Width="161" FontSize="18" FontFamily="Comic Sans MS" Background="White" Foreground="#FF780D0D" BorderBrush="#FFE23A3A" Click="regi_Click"/>
+        <TextBox x:Name="login" HorizontalAlignment="Left" Height="43" Margin="373,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" FontSize="18" FontFamily="Comic Sans MS" Background="White" Foreground="#FF780D0D" BorderBrush="#FFE23A3A" TextChanged="login_TextChanged"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Height="35" Margin="373,75,0,0" VerticalAlignment="Top" Width="161" FontSize="18" FontFamily="Comic Sans MS" Background="White" Foreground="#FF780D0D" BorderBrush="#FFE23A3A"/>
+        <Button x:Name="vhod" Content="Войти&#xA;" HorizontalAlignment="Left" Height="36" Margin="373,185,0,0" VerticalAlignment="Top" Width="161" FontSize="18" FontFamily="Comic Sans MS" Background="White" Foreground="#FF780D0D" BorderBrush="#FFE23A3A" Click="vhod_Click"/>
+    </Grid>
+</Window>
